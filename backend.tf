@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket                      = "gpc-oci-n-platform-tf"
     region                      = "us-ashburn-1"
-    key                         = "non-prod/network/default.tfstate"
+    key                         = "non-stage/network/default.tfstate"
     skip_region_validation      = true
     skip_credentials_validation = true
     skip_requesting_account_id  = true
